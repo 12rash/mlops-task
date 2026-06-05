@@ -1,0 +1,11 @@
+2026-06-05T15:09:07 | INFO     | === Job started ===
+2026-06-05T15:09:07 | INFO     | Config loaded — version=v1 | seed=42 | window=5
+2026-06-05T15:09:07 | DEBUG    | Random seed set to 42
+2026-06-05T15:09:07 | INFO     | Dataset loaded — rows=10000 | columns=['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-06-05T15:09:07 | INFO     | Computing rolling mean (window=5)…
+2026-06-05T15:09:07 | INFO     | Rolling mean computed — window=5 | warm-up rows (NaN)=4
+2026-06-05T15:09:07 | INFO     | Generating binary signal…
+2026-06-05T15:09:07 | INFO     | Signal generated — valid rows=9996 | signal=1 count=4989 | signal=0 count=5007
+2026-06-05T15:09:07 | INFO     | Metrics summary — rows_processed=9996 | signal_rate=0.4991 | latency_ms=114
+2026-06-05T15:09:07 | INFO     | Metrics written to metrics.json
+2026-06-05T15:09:07 | INFO     | === Job completed successfully ===
