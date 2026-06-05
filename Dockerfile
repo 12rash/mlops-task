@@ -1,6 +1,5 @@
 FROM python:3.9-slim
 
-# Set working directory
 WORKDIR /app
 
 # Copy dependency file first (layer caching)
